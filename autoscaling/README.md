@@ -1,4 +1,4 @@
-# AutoScaling CLoudformation
+# AutoScaling Cloudformation
 You Can Create a AutoScaling group and Launch config for the given AMI using this template on AWS CloudFormation.
 
 ## Details
