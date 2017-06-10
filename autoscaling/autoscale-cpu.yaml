@@ -416,4 +416,5 @@ Resources:
 Outputs:
   URL:
     Description: The URL of the Component Deployed
-    Value: !Join ['', ['http://', !GetAtt [LoadbalancerName, DNSName']]]
+#   Value: !Join ['', ['http://', !GetAtt [LoadbalancerName, DNSName']]]
+    Value: !Join ['', ['http://', !Ref 'LoadbalancerName']]
