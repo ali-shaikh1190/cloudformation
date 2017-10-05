@@ -24,7 +24,6 @@ Metadata:
       Owner:
         default: Team or Individual Owner
 Parameters:
-  # Ownership
   Owner:
     Type: String
     Default: FirstName LastName
